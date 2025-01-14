@@ -5,7 +5,7 @@
 
 int main() {
     persoana* lista = NULL;
-   lista=adaugapersoana(lista, 1, "Alice", "IT", 12);
+    lista=adaugapersoana(lista, 1, "Alice", "IT", 12);
     const char recomandari1[][100] = { "Foarte buna la proiecte", "Lucreaza rapid" };
     const int ids1[] = { 2, 3 };
     initializeazaRecomandari(lista, recomandari1, ids1, 2);
@@ -19,7 +19,7 @@ int main() {
     const char recomandari3[][100] = { "Expert in baze de date", "Colaborator de incredere", "Rezolva probleme complexe" };
     const int ids3[] = { 1, 2, 4 };
     initializeazaRecomandari(lista, recomandari3, ids3, 3);
-
+    adaugaconexiune(lista, 1, "Excelentã colaborare în echipã", 3);
     gaseste(lista);
 
     elibereazamemoria(lista);

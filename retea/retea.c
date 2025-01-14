@@ -49,3 +49,22 @@ void initializeazaRecomandari(persoana* p, const char recomandari[][100], const 
 		p->recomandari[i].id = ids[i];
 	}
 }
+
+void adaugaconexiune(persoana* p, int id, char text[100], int idAutor)
+{
+	persoana* nou = p;
+	while (nou && nou->id != id)
+	{
+		nou = nou->next;
+	}
+
+	if (!nou)
+	{
+		printf("Persoana cu ID-ul %d nu a fost gasita.\n", id);
+		return;
+	}
+
+	nou->recomandari = (recomandari*)realloc(nou->recomandari, sizeof(nou->contor + 1) * sizeof(recomandari));
+	nou->recomandari[nou->contor].id = idAutor;
+	nou->contor++;
+}
