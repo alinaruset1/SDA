@@ -1,0 +1,5 @@
+alina 100000 1
+maria 293773 0
+ioana 273773 1
+tati 28828 0
+mami 2873 1
