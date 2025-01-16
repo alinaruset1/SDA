@@ -1,0 +1,5 @@
+Echipa1 50 150000 Oras1
+Echipa2 60 200000 Oras2
+Echipa3 30 50000 Oras3
+Echipa4 10 120000 Oras4
+Echipa5 40 300000 Oras5
