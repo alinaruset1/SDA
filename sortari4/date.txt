@@ -1,0 +1,5 @@
+alina 18 1
+maria 20 0
+tati 46 0
+mami 50 1
+bianca 88 1
