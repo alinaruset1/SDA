@@ -1,0 +1,5 @@
+shakira 1999 1
+nou 2000 0
+adi 1998 1
+marrs 1970 0
+exact 1889 1
